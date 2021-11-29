@@ -1,3 +1,4 @@
+// By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 #include <iostream>
 #include <vector>
 
@@ -8,7 +9,7 @@ int main(){
     //initialize output
     int sum = 0;
     
-    //34th fibonacci number is > 4m. Could try to improve this to be less hard-coded
+    //34th fibonacci number is > 4m. Should try to remove the trivial hard-coding. Can derive fib #s while fib<4m, use result as loop range
     for(int i = 1; i < 34; ++i){
         fib.push_back(fib[i-1] + fib[i]);
         
