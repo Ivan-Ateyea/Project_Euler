@@ -6,7 +6,6 @@ Thoughts:
  */
  
 #include <iostream>
-#include <cmath>
 
 int main(){
     long long int num = 600851475143;
